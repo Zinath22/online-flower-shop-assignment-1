@@ -19,6 +19,7 @@
     color: #272727;
     font-size: 80px;
     margin-bottom: 32px;
+    font-weight: 800;
 
 }
 
@@ -26,12 +27,15 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     margin-bottom: 32px;
+    font-weight: 400;
+    line-height: 30px;
 
 }
 
 .img {
     height: 800px;
     width: 635px;
+    /* padding-top: 55px; */
 
 }
 
@@ -41,5 +45,150 @@
     color: #FFF;
     font-size: 20px;
     border: 0;
+    border-radius: 8px;
+    margin-left: 603px;
+    margin-right: 417px;
+    margin-bottom: 162px;
 
+}
+
+.sale-contaier {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1922px;
+    height: 620px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+    text-align: center;
+
+}
+
+.discount {
+    margin-bottom: 24px;
+    margin-right: 215px;
+    margin-left: 423px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.details {
+    margin-bottom: 32px;
+    margin-left: 385px;
+    margin-right: 186px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    width: 594px;
+    height: 60px;
+    font-weight: 400;
+}
+
+.sale-flower {
+    width: 318px;
+    height: 420px;
+    /* padding: 100px 100px; */
+}
+
+.insta-container {
+    margin-top: 128px;
+    
+}
+
+.insta {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
+    font-weight: 800;
+    line-height: 30px;
+
+}
+
+.insta-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    width: 594px;
+    /* height: 60px; */
+    margin: auto;
+    margin-bottom: 48px;
+    font-weight: 400;
+}
+
+.insta-image {
+    display: flex;
+    gap: 24px;
+    width: 342px;
+    height: 396px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.background-container{
+    text-align: center;
+    /* align-items: center; */
+    margin: 128px 240px;
+width: 1440px;
+height: 449px;
+border-radius: 8px;
+background-image: url(./images/Rectangle\ 9.png);
+}
+.text{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 122px 534px 16px 533px;
+}
+.background-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+/* width: 230px; */
+/* height: 30px; */
+/* margin-bottom: 48px;
+margin-left: 604px;
+margin: 605px; */
+}
+
+/* footer container */
+.footer-container {
+    text-align: center;
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;
+    color: white;
+    margin-top: 128px;
+}
+
+.footer-name {
+    font-size: 48px;
+    padding-top: 128px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.footer-container p small{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+
+}
+.span-color {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+    font-weight: 400;
 }
