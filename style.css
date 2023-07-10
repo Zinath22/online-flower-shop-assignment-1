@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-container {
+    height: 850px;
+    background: rgba(243, 95, 127, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 240px; */
+
+
+
+}
+
+.title {
+    color: #272727;
+    font-size: 80px;
+    margin-bottom: 32px;
+
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    margin-bottom: 32px;
+
+}
+
+.img {
+    height: 800px;
+    width: 635px;
+
+}
+
+.btn {
+    background-color: #E55473;
+    padding: 20px 45px;
+    color: #FFF;
+    font-size: 20px;
+    border: 0;
+
+}
