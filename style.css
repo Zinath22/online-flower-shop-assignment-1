@@ -119,12 +119,12 @@
 }
 /* sales off section  */
 .sale-section {
-    width: 1450px;
+    width: 1920px;
     height: 620px;
     text-align: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding: 0px 240px;
+
 }
 
 .sale-container {
