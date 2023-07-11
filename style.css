@@ -131,6 +131,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 100px ;
+    gap: 186px;
 }
 
 .btn-sign-up {
@@ -141,12 +143,14 @@
     background: #E55473;
     color: white;
     margin-top: 32px;
+
 }
 .sale-name {
     margin-bottom: 24px;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+
 }
 .details {
     color: rgba(39, 39, 39, 0.60);
@@ -155,14 +159,12 @@
     width: 594px;
     height: 60px;
     font-weight: 400;
+
 }
 .sale-img {
     width: 318px;
     height: 420px;
-    margin: 100px 429px 100px 216px;
-}
-.sale-flower {
-    padding: 100px 429px 100px 0px;
+    /* padding: 100px 429px 0 176px; */
 }
 .insta-name {
     color: #272727;
@@ -170,9 +172,11 @@
     font-size: 40px;
     font-weight: 800;
     line-height: 30px;
+    width: 180px;
     margin: 128px 870px 0 870px;
 }
 .insta-text {
+    
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
