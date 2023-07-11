@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 .banner {
@@ -47,8 +48,17 @@
 .feature {
 
     text-align: center;
+    width: 1440px;
+    padding: 0px 240px;
 }
-
+.flower-name{
+    margin-top: 32px;
+    color: #272727;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
 .flower-feature {
     margin-top: 178px;
     color: #272727;
@@ -66,97 +76,101 @@
     line-height: 30px;
     margin-bottom: 48px;
 }
+
 .feature-image {
     display: flex;
     justify-content: space-around;
     padding: 48px 240px 246px 240px;
     gap: 24px;
-    
+
+
 }
-.pink-f{
-    color: #A7216226; 
+
+.pink-f {
+    color: #A7216226;
     border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-width: 464px;
-height: 538px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
 
 }
-.red-f{
+
+.red-f {
     color: #0597A026;
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-width: 464px;
-height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
 
 }
-.yellow-f{
-width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-color: #477D1126;
+
+.yellow-f {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    color: #477D1126;
 
 }
-.img-all{
+
+.img-all {
     width: 310px;
     height: 428px;
-   
+
     padding: 110px 78px 67px 76px;
-    
+
 }
 
+.sale-section {
+    width: 1992px;
+    height: 620px;
+    text-align: center;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+padding: 0px 240px;
+}
 
-.sale-contaier {
+.sale-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 1922px;
-    height: 620px;
-    background: rgba(229, 84, 115, 0.05);
-    margin-top: 128px;
-    text-align: center;
-
-
-
 }
 
-.discount {
-    margin-top: 230px;
+.btn-sign-up {
+    padding: 20px 43px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    margin-top: 32px;
+
+}
+.sale-name{
+    
     margin-bottom: 24px;
-    margin-right: 215px;
-    margin-left: 423px;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-
-
 }
 
-.details {
-    padding: 0 186px 32px 395px;
+.details{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     line-height: 30px;
     width: 594px;
     height: 60px;
     font-weight: 400;
-}
-
-.btn-sign-up {
-    padding: 20px 43px;
-    margin: 0px 417px 162px 603px;
-    /* width: 155px;
-    height: 64px; */
-    gap: 10px;
-    border: 0;
-    /* padding: 0 417px 162px 601px; */
-    font-size: 20px;
-   border-radius: 8px;
-    background: #E55473;
-    color: white;
 
 
 }
+
+
+.sale-img{
+width: 318px;
+height: 420px;
+margin: 100px 429px 100px 216px;}
+
 
 .sale-flower {
 
@@ -216,8 +230,8 @@ color: #477D1126;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    
-    
+
+
 
 
 }
