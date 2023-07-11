@@ -46,18 +46,14 @@
 
 .feature {
 
-    margin-top: 178px;
-    align-items: center;
+    text-align: center;
 }
 
 .flower-feature {
-    text-align: center;
+    margin-top: 178px;
     color: #272727;
-    text-align: center;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
     margin-bottom: 24px;
 
 }
@@ -65,21 +61,50 @@
 .feature-description {
 
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 48px;
 }
-
 .feature-image {
     display: flex;
-    justify-content: space-between;
-    margin-left: 240px;
-    margin-right: 240px;
+    justify-content: space-around;
+    padding: 48px 240px 246px 240px;
     gap: 24px;
+    
 }
+.pink-f{
+    color: #A7216226; 
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 464px;
+height: 538px;
+
+}
+.red-f{
+    color: #0597A026;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+width: 464px;
+height: 538px;
+
+}
+.yellow-f{
+width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+color: #477D1126;
+
+}
+.img-all{
+    width: 310px;
+    height: 428px;
+   
+    padding: 110px 78px 67px 76px;
+    
+}
+
 
 .sale-contaier {
     display: flex;
@@ -108,8 +133,6 @@
 }
 
 .details {
-
-    /* margin-bottom: 32px; */
     padding: 0 186px 32px 395px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -120,15 +143,15 @@
 }
 
 .btn-sign-up {
-    display: inline-flex;
     padding: 20px 43px;
     margin: 0px 417px 162px 603px;
-    align-items: flex-start;
+    /* width: 155px;
+    height: 64px; */
     gap: 10px;
     border: 0;
-    text-align: center;
-
-    border-radius: 8px;
+    /* padding: 0 417px 162px 601px; */
+    font-size: 20px;
+   border-radius: 8px;
     background: #E55473;
     color: white;
 
@@ -136,25 +159,19 @@
 }
 
 .sale-flower {
-    /* width: 318px;
-    height: 420px; */
+
     padding: 100px 429px 100px 0px;
 
 
 }
 
-.insta-container {
-    margin-top: 128px;
-
-}
-
-.insta {
+.insta-name {
     color: #272727;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 24px;
     font-weight: 800;
     line-height: 30px;
+    margin: 128px 870px 0 870px;
 
 }
 
@@ -163,16 +180,15 @@
     text-align: center;
     font-size: 18px;
     width: 594px;
-    /* height: 60px; */
-    margin: auto;
-    margin-bottom: 48px;
     font-weight: 400;
-
+    margin: 24px 663px 48px 663px;
     line-height: 30px;
+
 }
 
 .insta-image {
     display: flex;
+    align-items: center;
     gap: 24px;
     width: 342px;
     height: 396px;
@@ -200,8 +216,8 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    /* padding: 122px 534px 16px 533px; */
-    /* padding: 122px 534px 16px 533px; */
+    
+    
 
 
 }
@@ -236,6 +252,36 @@
     background: #E55473;
     border: 0;
     margin-left: 16px;
+}
+
+/* contact */
+.contact {
+    width: 1440px;
+    height: 449px;
+    padding: 50px 240px;
+    border-radius: 5px;
+    margin-bottom: 139px;
+}
+
+.contact-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(60deg, rgba(199, 14, 196, 0.316), white);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.contact-us-container input,
+.text-area {
+    padding: 23px 513px 22px 22px;
+    border: 0;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* footer container */
