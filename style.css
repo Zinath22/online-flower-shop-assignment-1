@@ -132,7 +132,8 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 100px ;
-    gap: 186px;
+    /* gap: 186px; */
+
 }
 
 .btn-sign-up {
@@ -163,8 +164,9 @@
 }
 .sale-img {
     width: 318px;
-    height: 420px;
+    height: 420px;  
     /* padding: 100px 429px 0 176px; */
+    padding-right: 650px;
 }
 .insta-name {
     color: #272727;
