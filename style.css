@@ -51,14 +51,16 @@
     width: 1440px;
     padding: 0px 240px;
 }
-.flower-name{
+
+.flower-name {
     margin-top: 32px;
     color: #272727;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
+
 .flower-feature {
     margin-top: 178px;
     color: #272727;
@@ -67,7 +69,6 @@ text-decoration-line: underline;
     margin-bottom: 24px;
 
 }
-
 .feature-description {
 
     color: rgba(39, 39, 39, 0.60);
@@ -82,8 +83,6 @@ text-decoration-line: underline;
     justify-content: space-around;
     padding: 48px 240px 246px 240px;
     gap: 24px;
-
-
 }
 
 .pink-f {
@@ -94,7 +93,6 @@ text-decoration-line: underline;
     height: 538px;
 
 }
-
 .red-f {
     color: #0597A026;
     border-radius: 300px 300px 0px 0px;
@@ -112,7 +110,6 @@ text-decoration-line: underline;
     color: #477D1126;
 
 }
-
 .img-all {
     width: 310px;
     height: 428px;
@@ -120,14 +117,14 @@ text-decoration-line: underline;
     padding: 110px 78px 67px 76px;
 
 }
-
+/* sales off section  */
 .sale-section {
     width: 1992px;
     height: 620px;
     text-align: center;
     border-radius: 8px;
-background: rgba(229, 84, 115, 0.05);
-padding: 0px 240px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0px 240px;
 }
 
 .sale-container {
@@ -144,41 +141,29 @@ padding: 0px 240px;
     background: #E55473;
     color: white;
     margin-top: 32px;
-
 }
-.sale-name{
-    
+.sale-name {
     margin-bottom: 24px;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-
-.details{
+.details {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     line-height: 30px;
     width: 594px;
     height: 60px;
     font-weight: 400;
-
-
 }
-
-
-.sale-img{
-width: 318px;
-height: 420px;
-margin: 100px 429px 100px 216px;}
-
-
+.sale-img {
+    width: 318px;
+    height: 420px;
+    margin: 100px 429px 100px 216px;
+}
 .sale-flower {
-
     padding: 100px 429px 100px 0px;
-
-
 }
-
 .insta-name {
     color: #272727;
     text-align: center;
@@ -186,9 +171,7 @@ margin: 100px 429px 100px 216px;}
     font-weight: 800;
     line-height: 30px;
     margin: 128px 870px 0 870px;
-
 }
-
 .insta-text {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -199,7 +182,6 @@ margin: 100px 429px 100px 216px;}
     line-height: 30px;
 
 }
-
 .insta-image {
     display: flex;
     align-items: center;
@@ -208,7 +190,6 @@ margin: 100px 429px 100px 216px;}
     height: 396px;
     margin: 0px 240px;
 }
-
 .background-container {
     background-image: url(./images/Rectangle\ 9.png);
     width: 1440px;
@@ -219,10 +200,7 @@ margin: 100px 429px 100px 216px;}
     align-items: center;
     flex-direction: column;
     margin: 128px 240px;
-
-
 }
-
 .text {
     color: #272727;
     text-align: center;
@@ -230,12 +208,7 @@ margin: 100px 429px 100px 216px;}
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
-
-
-
 }
-
 .background-description {
 
     color: rgba(39, 39, 39, 0.60);
@@ -245,7 +218,6 @@ margin: 100px 429px 100px 216px;}
     line-height: 30px;
     margin: 16px 605px 48px 603px;
 }
-
 .background-container input {
     padding: 23px 513px 22px 22px;
     border: 0;
@@ -254,7 +226,6 @@ margin: 100px 429px 100px 216px;}
     font-size: 16px;
     font-weight: 400;
 }
-
 .btn-sub {
     color: #FFF;
     font-family: Lato;
@@ -267,7 +238,6 @@ margin: 100px 429px 100px 216px;}
     border: 0;
     margin-left: 16px;
 }
-
 /* contact */
 .contact {
     width: 1440px;
